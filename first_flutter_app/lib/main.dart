@@ -13,7 +13,10 @@ class MyFirstFlutterApp extends StatelessWidget{
       //home: Text('Hello World'),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('My First App in Flutter'),
+          title: Text("My First App in Flutter"),
+        ),
+        body: Center(
+          child: Text("Hello World"),
         ),
       ),
 
